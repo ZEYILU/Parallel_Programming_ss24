@@ -1,0 +1,286 @@
+Matrix A and vector b read successfully on rank 0
+Matrix A:
+0.4664 2.3629 8.1942 9.7693 9.9512 8.0007 5.4772 6.5216 9.5914 5.3848 8.6443 8.0668 8.0893 2.1058 3.5271 
+7.0597 5.1279 4.9826 8.0849 6.0979 1.9829 1.5769 7.7967 2.2556 1.8421 5.9633 2.3524 7.8793 4.8623 2.8274 
+1.2896 9.0051 8.5272 4.367 0.7371 2.8027 1.7664 4.9839 3.074 0.4968 2.7319 8.1962 9.9245 0.4089 8.5728 
+0.7647 5.7083 9.6642 5.4824 1.6234 2.0066 7.6829 9.1054 5.0996 5.9574 4.1822 1.0851 9.2366 1.887 7.5905 
+1.4431 2.7196 5.4864 7.4671 8.3193 2.2478 2.1109 8.0147 5.781 5.1204 3.7524 3.1852 7.0379 3.8689 6.4966 
+0.4924 8.1021 2.451 6.5601 6.4285 0.0963 5.0857 9.7913 0.7952 3.7031 7.567 2.1415 0.7143 0.7943 3.955 
+0.7567 7.6545 2.8563 2.1188 3.1768 1.9366 4.2056 6.8172 9.862 0.4586 1.8701 9.0934 7.9368 7.3278 0.0551 
+9.9557 2.1744 4.4153 4.1846 4.6994 1.0391 7.3274 1.81 8.1655 5.5726 6.1679 3.8789 8.1791 5.103 6.8673 
+6.0978 2.0614 6.0247 7.336 6.3256 8.9287 3.0441 1.7247 7.9665 9.9246 1.2929 8.4105 7.8729 4.1713 4.7402 
+3.9246 3.9187 7.544 7.6179 4.1634 9.1136 3.7059 6.2696 4.4896 0.7854 9.4035 3.3368 2.9369 8.5736 6.4238 
+9.0821 7.9386 8.8233 7.3682 9.7788 1.5087 5.6954 0.9564 3.3064 2.103 8.0565 7.722 2.993 9.7423 9.3081 
+4.5604 9.403 8.7959 4.9635 9.8421 2.7423 2.4829 3.1635 0.3068 2.0722 8.335 7.3587 0.8583 8.0233 1.3064 
+7.4512 4.9076 4.299 3.5168 9.2592 6.3822 1.5503 9.2904 5.1896 3.7568 0.5298 4.6 9.1284 8.7543 6.7657 
+6.1045 2.4968 0.9536 7.5625 1.8133 8.0603 4.9489 4.2812 5.7063 7.6947 8.4202 6.8169 7.1949 6.9825 7.9254 
+8.0196 8.1874 2.769 7.3916 1.852 3.2962 1.507 0.4892 3.4717 2.3741 9.4766 6.5475 6.9459 8.3881 9.1752 
+Vector b:
+0.9129 9.6925 0.3205 6.1589 2.8587 9.7221 7.6894 9.0612 7.316 1.1419 0.2128 3.4146 1.8039 3.7207 8.3162 
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   PID 15362 RUNNING AT fang-s010
+=   EXIT CODE: 11
+=   CLEANING UP REMAINING PROCESSES
+=   YOU CAN IGNORE THE BELOW CLEANUP MESSAGES
+===================================================================================
+YOUR APPLICATION TERMINATED WITH THE EXIT STRING: Segmentation fault (signal 11)
+This typically refers to a problem with your application.
+Please see the FAQ page for debugging suggestions
+Matrix A and vector b read successfully on rank 0
+Matrix A:
+0.4664 2.3629 8.1942 9.7693 9.9512 8.0007 5.4772 6.5216 9.5914 5.3848 8.6443 8.0668 8.0893 2.1058 3.5271 
+7.0597 5.1279 4.9826 8.0849 6.0979 1.9829 1.5769 7.7967 2.2556 1.8421 5.9633 2.3524 7.8793 4.8623 2.8274 
+1.2896 9.0051 8.5272 4.367 0.7371 2.8027 1.7664 4.9839 3.074 0.4968 2.7319 8.1962 9.9245 0.4089 8.5728 
+0.7647 5.7083 9.6642 5.4824 1.6234 2.0066 7.6829 9.1054 5.0996 5.9574 4.1822 1.0851 9.2366 1.887 7.5905 
+1.4431 2.7196 5.4864 7.4671 8.3193 2.2478 2.1109 8.0147 5.781 5.1204 3.7524 3.1852 7.0379 3.8689 6.4966 
+0.4924 8.1021 2.451 6.5601 6.4285 0.0963 5.0857 9.7913 0.7952 3.7031 7.567 2.1415 0.7143 0.7943 3.955 
+0.7567 7.6545 2.8563 2.1188 3.1768 1.9366 4.2056 6.8172 9.862 0.4586 1.8701 9.0934 7.9368 7.3278 0.0551 
+9.9557 2.1744 4.4153 4.1846 4.6994 1.0391 7.3274 1.81 8.1655 5.5726 6.1679 3.8789 8.1791 5.103 6.8673 
+6.0978 2.0614 6.0247 7.336 6.3256 8.9287 3.0441 1.7247 7.9665 9.9246 1.2929 8.4105 7.8729 4.1713 4.7402 
+3.9246 3.9187 7.544 7.6179 4.1634 9.1136 3.7059 6.2696 4.4896 0.7854 9.4035 3.3368 2.9369 8.5736 6.4238 
+9.0821 7.9386 8.8233 7.3682 9.7788 1.5087 5.6954 0.9564 3.3064 2.103 8.0565 7.722 2.993 9.7423 9.3081 
+4.5604 9.403 8.7959 4.9635 9.8421 2.7423 2.4829 3.1635 0.3068 2.0722 8.335 7.3587 0.8583 8.0233 1.3064 
+7.4512 4.9076 4.299 3.5168 9.2592 6.3822 1.5503 9.2904 5.1896 3.7568 0.5298 4.6 9.1284 8.7543 6.7657 
+6.1045 2.4968 0.9536 7.5625 1.8133 8.0603 4.9489 4.2812 5.7063 7.6947 8.4202 6.8169 7.1949 6.9825 7.9254 
+8.0196 8.1874 2.769 7.3916 1.852 3.2962 1.507 0.4892 3.4717 2.3741 9.4766 6.5475 6.9459 8.3881 9.1752 
+Vector b:
+0.9129 9.6925 0.3205 6.1589 2.8587 9.7221 7.6894 9.0612 7.316 1.1419 0.2128 3.4146 1.8039 3.7207 8.3162 
+*** Error in `./jacobi_MPI': double free or corruption (out): 0x00000000021203b0 ***
+======= Backtrace: =========
+/lib64/libc.so.6(+0x81329)[0x2ae615bc4329]
+/appl/anaconda3/lib/libmpi.so.12(+0x44f519)[0x2ae612e05519]
+/appl/anaconda3/lib/libmpi.so.12(+0x44122e)[0x2ae612df722e]
+/appl/anaconda3/lib/libmpi.so.12(+0x42b6a4)[0x2ae612de16a4]
+/appl/anaconda3/lib/libmpi.so.12(+0x42c7f1)[0x2ae612de27f1]
+/appl/anaconda3/lib/libmpi.so.12(+0x3d066b)[0x2ae612d8666b]
+/appl/anaconda3/lib/libmpi.so.12(+0x334f49)[0x2ae612ceaf49]
+/appl/anaconda3/lib/libmpi.so.12(+0x3356ac)[0x2ae612ceb6ac]
+/appl/anaconda3/lib/libmpi.so.12(+0x33b6ea)[0x2ae612cf16ea]
+/appl/anaconda3/lib/libmpi.so.12(+0x331a60)[0x2ae612ce7a60]
+/appl/anaconda3/lib/libmpi.so.12(+0x3598d8)[0x2ae612d0f8d8]
+/appl/anaconda3/lib/libmpi.so.12(PMPI_Finalize+0x14)[0x2ae612accb74]
+./jacobi_MPI[0x403180]
+/lib64/libc.so.6(__libc_start_main+0xf5)[0x2ae615b65555]
+./jacobi_MPI[0x4023a9]
+======= Memory map: ========
+00400000-00402000 r--p 00000000 00:30 72219435                           /home/student18/assignment5/jacobi_MPI
+00402000-00408000 r-xp 00002000 00:30 72219435                           /home/student18/assignment5/jacobi_MPI
+00408000-0040b000 r--p 00008000 00:30 72219435                           /home/student18/assignment5/jacobi_MPI
+0040c000-0040d000 r--p 0000b000 00:30 72219435                           /home/student18/assignment5/jacobi_MPI
+0040d000-0040e000 rw-p 0000c000 00:30 72219435                           /home/student18/assignment5/jacobi_MPI
+0210a000-0221d000 rw-p 00000000 00:00 0                                  [heap]
+2ae612792000-2ae6127b4000 r-xp 00000000 fd:00 75208                      /usr/lib64/ld-2.17.so
+2ae6127b4000-2ae6127b5000 rw-p 00000000 00:00 0 
+2ae6127b5000-2ae6127c4000 r--p 00000000 00:2c 426268626                  /appl/anaconda3/lib/libmpicxx.so.12.3.0
+2ae6127c4000-2ae6127cc000 r-xp 0000f000 00:2c 426268626                  /appl/anaconda3/lib/libmpicxx.so.12.3.0
+2ae6127cc000-2ae6127d0000 r--p 00017000 00:2c 426268626                  /appl/anaconda3/lib/libmpicxx.so.12.3.0
+2ae6127d0000-2ae6127d3000 r--p 0001a000 00:2c 426268626                  /appl/anaconda3/lib/libmpicxx.so.12.3.0
+2ae6127d3000-2ae6127d4000 rw-p 0001d000 00:2c 426268626                  /appl/anaconda3/lib/libmpicxx.so.12.3.0
+2ae6127d4000-2ae6127d5000 rw-p 00000000 00:00 0 
+2ae6127d5000-2ae6127d6000 rw-s 00000000 00:13 1403784                    /dev/shm/mpich_shar_tmpc8xsvg (deleted)
+2ae6127d6000-2ae6127d7000 rw-s 00000000 00:13 1403786                    /dev/shm/mpich_shar_tmpKvNyai (deleted)
+2ae6127d7000-2ae6127d8000 rw-s 00000000 00:13 1403787                    /dev/shm/mpich_shar_tmpOXhm0N (deleted)
+2ae6127d8000-2ae6127d9000 rw-s 00000000 00:13 1403789                    /dev/shm/mpich_shar_tmpIyXFGP (deleted)
+2ae6127d9000-2ae6127e1000 rw-s 00000000 00:13 1403790                    /dev/shm/mpich_shar_tmpUbjfxl (deleted)
+2ae6127e1000-2ae6127e2000 rw-p 00000000 00:00 0 
+2ae6127ed000-2ae6127ee000 rw-p 00000000 00:00 0 
+2ae6127ee000-2ae6127f1000 r--p 00000000 00:2c 1120930391                 /appl/anaconda3/lib/libgcc_s.so.1
+2ae6127f1000-2ae612803000 r-xp 00003000 00:2c 1120930391                 /appl/anaconda3/lib/libgcc_s.so.1
+2ae612803000-2ae612806000 r--p 00015000 00:2c 1120930391                 /appl/anaconda3/lib/libgcc_s.so.1
+2ae612806000-2ae612807000 r--p 00017000 00:2c 1120930391                 /appl/anaconda3/lib/libgcc_s.so.1
+2ae612807000-2ae612808000 rw-p 00018000 00:2c 1120930391                 /appl/anaconda3/lib/libgcc_s.so.1
+2ae612808000-2ae61280a000 r--p 00000000 00:2c 1120930395                 /appl/anaconda3/lib/libatomic.so.1.2.0
+2ae61280a000-2ae61280d000 r-xp 00002000 00:2c 1120930395                 /appl/anaconda3/lib/libatomic.so.1.2.0
+2ae61280d000-2ae61280f000 r--p 00005000 00:2c 1120930395                 /appl/anaconda3/lib/libatomic.so.1.2.0
+2ae61280f000-2ae612810000 r--p 00006000 00:2c 1120930395                 /appl/anaconda3/lib/libatomic.so.1.2.0
+2ae612810000-2ae612811000 rw-p 00007000 00:2c 1120930395                 /appl/anaconda3/lib/libatomic.so.1.2.0
+2ae612811000-2ae61290a000 rw-p 00000000 00:00 0 
+2ae6129b3000-2ae6129b4000 r--p 00021000 fd:00 75208                      /usr/lib64/ld-2.17.so
+2ae6129b4000-2ae6129b5000 rw-p 00022000 fd:00 75208                      /usr/lib64/ld-2.17.so
+2ae6129b5000-2ae6129b6000 rw-p 00000000 00:00 0 
+2ae6129b6000-2ae612a55000 r--p 00000000 00:2c 1015446351                 /appl/anaconda3/lib/libmpi.so.12.3.0
+2ae612a55000-2ae6150d3000 r-xp 0009f000 00:2c 1015446351                 /appl/anaconda3/lib/libmpi.so.12.3.0
+2ae6150d3000-2ae615497000 r--p 0271d000 00:2c 1015446351                 /appl/anaconda3/lib/libmpi.so.12.3.0
+2ae615497000-2ae615498000 ---p 02ae1000 00:2c 1015446351                 /appl/anaconda3/lib/libmpi.so.12.3.0
+2ae615498000-2ae6154ca000 r--p 02ae1000 00:2c 1015446351                 /appl/anaconda3/lib/libmpi.so.12.3.0
+2ae6154ca000-2ae6154d5000 rw-p 02b13000 00:2c 1015446351                 /appl/anaconda3/lib/libmpi.so.12.3.0
+2ae6154d5000-2ae61562d000 rw-p 00000000 00:00 0 
+2ae61562d000-2ae6156ce000 r--p 00000000 00:2c 648203843                  /appl/anaconda3/lib/libstdc++.so.6.0.29
+2ae6156ce000-2ae6157c3000 r-xp 000a1000 00:2c 648203843                  /appl/anaconda3/lib/libstdc++.so.6.0.29
+2ae6157c3000-2ae61582f000 r--p 00196000 00:2c 648203843                  /appl/anaconda3/lib/libstdc++.so.6.0.29
+2ae61582f000-2ae615830000 ---p 00202000 00:2c 648203843                  /appl/anaconda3/lib/libstdc++.so.6.0.29
+2ae615830000-2ae61583b000 r--p 00202000 00:2c 648203843                  /appl/anaconda3/lib/libstdc++.so.6.0.29
+2ae61583b000-2ae61583e000 rw-p 0020d000 00:2c 648203843                  /appl/anaconda3/lib/libstdc++.so.6.0.29
+2ae61583e000-2ae615841000 rw-p 00000000 00:00 0 
+2ae615841000-2ae615942000 r-xp 00000000 fd:00 76550                      /usr/lib64/libm-2.17.so
+2ae615942000-2ae615b41000 ---p 00101000 fd:00 76550                      /usr/lib64/libm-2.17.so
+2ae615b41000-2ae615b42000 r--p 00100000 fd:00 76550                      /usr/lib64/libm-2.17.so
+2ae615b42000-2ae615b43000 rw-p 00101000 fd:00 76550                      /usr/lib64/libm-2.17.so
+2ae615b43000-2ae615d07000 r-xp 00000000 fd:00 75216                      /usr/lib64/libc-2.17.so
+2ae615d07000-2ae615f06000 ---p 001c4000 fd:00 75216                      /usr/lib64/libc-2.17.so
+2ae615f06000-2ae615f0a000 r--p 001c3000 fd:00 75216                      /usr/lib64/libc-2.17.so
+2ae615f0a000-2ae615f0c000 rw-p 001c7000 fd:00 75216                      /usr/lib64/libc-2.17.so
+2ae615f0c000-2ae615f11000 rw-p 00000000 00:00 0 
+2ae615f11000-2ae615f28000 r-xp 00000000 fd:00 76570                      /usr/lib64/libpthread-2.17.so
+2ae615f28000-2ae616127000 ---p 00017000 fd:00 76570                      /usr/lib64/libpthread-2.17.so
+2ae616127000-2ae616128000 r--p 00016000 fd:00 76570                      /usr/lib64/libpthread-2.17.so
+2ae616128000-2ae616129000 rw-p 00017000 fd:00 76570                      /usr/lib64/libpthread-2.17.so
+2ae616129000-2ae61612d000 rw-p 00000000 00:00 0 
+2ae61612d000-2ae61612f000 r-xp 00000000 fd:00 76547                      /usr/lib64/libdl-2.17.so
+2ae61612f000-2ae61632f000 ---p 00002000 fd:00 76547                      /usr/lib64/libdl-2.17.so
+2ae61632f000-2ae616330000 r--p 00002000 fd:00 76547                      /usr/lib64/libdl-2.17.so
+2ae616330000-2ae616331000 rw-p 00003000 fd:00 76547                      /usr/lib64/libdl-2.17.so
+2ae616331000-2ae616338000 r-xp 00000000 fd:00 76575                      /usr/lib64/librt-2.17.so
+2ae616338000-2ae616537000 ---p 00007000 fd:00 76575                      /usr/lib64/librt-2.17.so
+2ae616537000-2ae616538000 r--p 00006000 fd:00 76575                      /usr/lib64/librt-2.17.so
+2ae616538000-2ae616539000 rw-p 00007000 fd:00 76575                      /usr/lib64/librt-2.17.so
+2ae616539000-2ae61653a000 ---p 00000000 00:00 0 
+2ae61653a000-2ae61673a000 rw-p 00000000 00:00 0 
+2ae61673a000-2ae61673b000 ---p 00000000 00:00 0 
+2ae61673b000-2ae617143000 rw-p 00000000 00:00 0 
+2ae617143000-2ae617d4a000 rw-s 00000000 00:13 1403785                    /dev/shm/mpich_shar_tmposFNkM (deleted)
+2ae617d4a000-2ae617e4b000 rw-p 00000000 00:00 0 
+2ae618000000-2ae618021000 rw-p 00000000 00:00 0 
+2ae618021000-2ae61c000000 ---p 00000000 00:00 0 
+7ffe94220000-7ffe94243000 rw-p 00000000 00:00 0                          [stack]
+7ffe942ec000-7ffe942ee000 r-xp 00000000 00:00 0                          [vdso]
+ffffffffff600000-ffffffffff601000 r-xp 00000000 00:00 0                  [vsyscall]
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   PID 15433 RUNNING AT fang-s010
+=   EXIT CODE: 9
+=   CLEANING UP REMAINING PROCESSES
+=   YOU CAN IGNORE THE BELOW CLEANUP MESSAGES
+===================================================================================
+YOUR APPLICATION TERMINATED WITH THE EXIT STRING: Terminated (signal 15)
+This typically refers to a problem with your application.
+Please see the FAQ page for debugging suggestions
+Matrix A and vector b read successfully on rank 0
+Matrix A:
+0.4664 2.3629 8.1942 9.7693 9.9512 8.0007 5.4772 6.5216 9.5914 5.3848 8.6443 8.0668 8.0893 2.1058 3.5271 
+7.0597 5.1279 4.9826 8.0849 6.0979 1.9829 1.5769 7.7967 2.2556 1.8421 5.9633 2.3524 7.8793 4.8623 2.8274 
+1.2896 9.0051 8.5272 4.367 0.7371 2.8027 1.7664 4.9839 3.074 0.4968 2.7319 8.1962 9.9245 0.4089 8.5728 
+0.7647 5.7083 9.6642 5.4824 1.6234 2.0066 7.6829 9.1054 5.0996 5.9574 4.1822 1.0851 9.2366 1.887 7.5905 
+1.4431 2.7196 5.4864 7.4671 8.3193 2.2478 2.1109 8.0147 5.781 5.1204 3.7524 3.1852 7.0379 3.8689 6.4966 
+0.4924 8.1021 2.451 6.5601 6.4285 0.0963 5.0857 9.7913 0.7952 3.7031 7.567 2.1415 0.7143 0.7943 3.955 
+0.7567 7.6545 2.8563 2.1188 3.1768 1.9366 4.2056 6.8172 9.862 0.4586 1.8701 9.0934 7.9368 7.3278 0.0551 
+9.9557 2.1744 4.4153 4.1846 4.6994 1.0391 7.3274 1.81 8.1655 5.5726 6.1679 3.8789 8.1791 5.103 6.8673 
+6.0978 2.0614 6.0247 7.336 6.3256 8.9287 3.0441 1.7247 7.9665 9.9246 1.2929 8.4105 7.8729 4.1713 4.7402 
+3.9246 3.9187 7.544 7.6179 4.1634 9.1136 3.7059 6.2696 4.4896 0.7854 9.4035 3.3368 2.9369 8.5736 6.4238 
+9.0821 7.9386 8.8233 7.3682 9.7788 1.5087 5.6954 0.9564 3.3064 2.103 8.0565 7.722 2.993 9.7423 9.3081 
+4.5604 9.403 8.7959 4.9635 9.8421 2.7423 2.4829 3.1635 0.3068 2.0722 8.335 7.3587 0.8583 8.0233 1.3064 
+7.4512 4.9076 4.299 3.5168 9.2592 6.3822 1.5503 9.2904 5.1896 3.7568 0.5298 4.6 9.1284 8.7543 6.7657 
+6.1045 2.4968 0.9536 7.5625 1.8133 8.0603 4.9489 4.2812 5.7063 7.6947 8.4202 6.8169 7.1949 6.9825 7.9254 
+8.0196 8.1874 2.769 7.3916 1.852 3.2962 1.507 0.4892 3.4717 2.3741 9.4766 6.5475 6.9459 8.3881 9.1752 
+Vector b:
+0.9129 9.6925 0.3205 6.1589 2.8587 9.7221 7.6894 9.0612 7.316 1.1419 0.2128 3.4146 1.8039 3.7207 8.3162 
+*** Error in `./jacobi_MPI': double free or corruption (!prev): 0x0000000001bc4120 ***
+======= Backtrace: =========
+/lib64/libc.so.6(+0x81329)[0x2b66b2983329]
+/appl/anaconda3/lib/libmpi.so.12(+0x42b7e6)[0x2b66afba07e6]
+/appl/anaconda3/lib/libmpi.so.12(+0x42c7f1)[0x2b66afba17f1]
+/appl/anaconda3/lib/libmpi.so.12(+0x3d066b)[0x2b66afb4566b]
+/appl/anaconda3/lib/libmpi.so.12(+0x334f49)[0x2b66afaa9f49]
+/appl/anaconda3/lib/libmpi.so.12(+0x3356ac)[0x2b66afaaa6ac]
+/appl/anaconda3/lib/libmpi.so.12(+0x33b6ea)[0x2b66afab06ea]
+/appl/anaconda3/lib/libmpi.so.12(+0x331a60)[0x2b66afaa6a60]
+/appl/anaconda3/lib/libmpi.so.12(+0x3598d8)[0x2b66aface8d8]
+/appl/anaconda3/lib/libmpi.so.12(PMPI_Finalize+0x14)[0x2b66af88bb74]
+./jacobi_MPI[0x403180]
+/lib64/libc.so.6(__libc_start_main+0xf5)[0x2b66b2924555]
+./jacobi_MPI[0x4023a9]
+======= Memory map: ========
+00400000-00402000 r--p 00000000 00:30 72219435                           /home/student18/assignment5/jacobi_MPI
+00402000-00408000 r-xp 00002000 00:30 72219435                           /home/student18/assignment5/jacobi_MPI
+00408000-0040b000 r--p 00008000 00:30 72219435                           /home/student18/assignment5/jacobi_MPI
+0040c000-0040d000 r--p 0000b000 00:30 72219435                           /home/student18/assignment5/jacobi_MPI
+0040d000-0040e000 rw-p 0000c000 00:30 72219435                           /home/student18/assignment5/jacobi_MPI
+01abb000-01bce000 rw-p 00000000 00:00 0                                  [heap]
+2b66af551000-2b66af573000 r-xp 00000000 fd:00 75208                      /usr/lib64/ld-2.17.so
+2b66af573000-2b66af574000 rw-p 00000000 00:00 0 
+2b66af574000-2b66af583000 r--p 00000000 00:2c 426268626                  /appl/anaconda3/lib/libmpicxx.so.12.3.0
+2b66af583000-2b66af58b000 r-xp 0000f000 00:2c 426268626                  /appl/anaconda3/lib/libmpicxx.so.12.3.0
+2b66af58b000-2b66af58f000 r--p 00017000 00:2c 426268626                  /appl/anaconda3/lib/libmpicxx.so.12.3.0
+2b66af58f000-2b66af592000 r--p 0001a000 00:2c 426268626                  /appl/anaconda3/lib/libmpicxx.so.12.3.0
+2b66af592000-2b66af593000 rw-p 0001d000 00:2c 426268626                  /appl/anaconda3/lib/libmpicxx.so.12.3.0
+2b66af593000-2b66af594000 rw-p 00000000 00:00 0 
+2b66af594000-2b66af595000 rw-s 00000000 00:13 1402712                    /dev/shm/mpich_shar_tmp3sHE7M (deleted)
+2b66af595000-2b66af596000 rw-s 00000000 00:13 1402714                    /dev/shm/mpich_shar_tmp3DHZqR (deleted)
+2b66af596000-2b66af597000 rw-s 00000000 00:13 1402715                    /dev/shm/mpich_shar_tmp2jITAo (deleted)
+2b66af597000-2b66af598000 rw-p 00000000 00:00 0 
+2b66af5ac000-2b66af5ad000 rw-p 00000000 00:00 0 
+2b66af5ad000-2b66af5b0000 r--p 00000000 00:2c 1120930391                 /appl/anaconda3/lib/libgcc_s.so.1
+2b66af5b0000-2b66af5c2000 r-xp 00003000 00:2c 1120930391                 /appl/anaconda3/lib/libgcc_s.so.1
+2b66af5c2000-2b66af5c5000 r--p 00015000 00:2c 1120930391                 /appl/anaconda3/lib/libgcc_s.so.1
+2b66af5c5000-2b66af5c6000 r--p 00017000 00:2c 1120930391                 /appl/anaconda3/lib/libgcc_s.so.1
+2b66af5c6000-2b66af5c7000 rw-p 00018000 00:2c 1120930391                 /appl/anaconda3/lib/libgcc_s.so.1
+2b66af5c7000-2b66af5c9000 r--p 00000000 00:2c 1120930395                 /appl/anaconda3/lib/libatomic.so.1.2.0
+2b66af5c9000-2b66af5cc000 r-xp 00002000 00:2c 1120930395                 /appl/anaconda3/lib/libatomic.so.1.2.0
+2b66af5cc000-2b66af5ce000 r--p 00005000 00:2c 1120930395                 /appl/anaconda3/lib/libatomic.so.1.2.0
+2b66af5ce000-2b66af5cf000 r--p 00006000 00:2c 1120930395                 /appl/anaconda3/lib/libatomic.so.1.2.0
+2b66af5cf000-2b66af5d0000 rw-p 00007000 00:2c 1120930395                 /appl/anaconda3/lib/libatomic.so.1.2.0
+2b66af5d0000-2b66af6c9000 rw-p 00000000 00:00 0 
+2b66af772000-2b66af773000 r--p 00021000 fd:00 75208                      /usr/lib64/ld-2.17.so
+2b66af773000-2b66af774000 rw-p 00022000 fd:00 75208                      /usr/lib64/ld-2.17.so
+2b66af774000-2b66af775000 rw-p 00000000 00:00 0 
+2b66af775000-2b66af814000 r--p 00000000 00:2c 1015446351                 /appl/anaconda3/lib/libmpi.so.12.3.0
+2b66af814000-2b66b1e92000 r-xp 0009f000 00:2c 1015446351                 /appl/anaconda3/lib/libmpi.so.12.3.0
+2b66b1e92000-2b66b2256000 r--p 0271d000 00:2c 1015446351                 /appl/anaconda3/lib/libmpi.so.12.3.0
+2b66b2256000-2b66b2257000 ---p 02ae1000 00:2c 1015446351                 /appl/anaconda3/lib/libmpi.so.12.3.0
+2b66b2257000-2b66b2289000 r--p 02ae1000 00:2c 1015446351                 /appl/anaconda3/lib/libmpi.so.12.3.0
+2b66b2289000-2b66b2294000 rw-p 02b13000 00:2c 1015446351                 /appl/anaconda3/lib/libmpi.so.12.3.0
+2b66b2294000-2b66b23ec000 rw-p 00000000 00:00 0 
+2b66b23ec000-2b66b248d000 r--p 00000000 00:2c 648203843                  /appl/anaconda3/lib/libstdc++.so.6.0.29
+2b66b248d000-2b66b2582000 r-xp 000a1000 00:2c 648203843                  /appl/anaconda3/lib/libstdc++.so.6.0.29
+2b66b2582000-2b66b25ee000 r--p 00196000 00:2c 648203843                  /appl/anaconda3/lib/libstdc++.so.6.0.29
+2b66b25ee000-2b66b25ef000 ---p 00202000 00:2c 648203843                  /appl/anaconda3/lib/libstdc++.so.6.0.29
+2b66b25ef000-2b66b25fa000 r--p 00202000 00:2c 648203843                  /appl/anaconda3/lib/libstdc++.so.6.0.29
+2b66b25fa000-2b66b25fd000 rw-p 0020d000 00:2c 648203843                  /appl/anaconda3/lib/libstdc++.so.6.0.29
+2b66b25fd000-2b66b2600000 rw-p 00000000 00:00 0 
+2b66b2600000-2b66b2701000 r-xp 00000000 fd:00 76550                      /usr/lib64/libm-2.17.so
+2b66b2701000-2b66b2900000 ---p 00101000 fd:00 76550                      /usr/lib64/libm-2.17.so
+2b66b2900000-2b66b2901000 r--p 00100000 fd:00 76550                      /usr/lib64/libm-2.17.so
+2b66b2901000-2b66b2902000 rw-p 00101000 fd:00 76550                      /usr/lib64/libm-2.17.so
+2b66b2902000-2b66b2ac6000 r-xp 00000000 fd:00 75216                      /usr/lib64/libc-2.17.so
+2b66b2ac6000-2b66b2cc5000 ---p 001c4000 fd:00 75216                      /usr/lib64/libc-2.17.so
+2b66b2cc5000-2b66b2cc9000 r--p 001c3000 fd:00 75216                      /usr/lib64/libc-2.17.so
+2b66b2cc9000-2b66b2ccb000 rw-p 001c7000 fd:00 75216                      /usr/lib64/libc-2.17.so
+2b66b2ccb000-2b66b2cd0000 rw-p 00000000 00:00 0 
+2b66b2cd0000-2b66b2ce7000 r-xp 00000000 fd:00 76570                      /usr/lib64/libpthread-2.17.so
+2b66b2ce7000-2b66b2ee6000 ---p 00017000 fd:00 76570                      /usr/lib64/libpthread-2.17.so
+2b66b2ee6000-2b66b2ee7000 r--p 00016000 fd:00 76570                      /usr/lib64/libpthread-2.17.so
+2b66b2ee7000-2b66b2ee8000 rw-p 00017000 fd:00 76570                      /usr/lib64/libpthread-2.17.so
+2b66b2ee8000-2b66b2eec000 rw-p 00000000 00:00 0 
+2b66b2eec000-2b66b2eee000 r-xp 00000000 fd:00 76547                      /usr/lib64/libdl-2.17.so
+2b66b2eee000-2b66b30ee000 ---p 00002000 fd:00 76547                      /usr/lib64/libdl-2.17.so
+2b66b30ee000-2b66b30ef000 r--p 00002000 fd:00 76547                      /usr/lib64/libdl-2.17.so
+2b66b30ef000-2b66b30f0000 rw-p 00003000 fd:00 76547                      /usr/lib64/libdl-2.17.so
+2b66b30f0000-2b66b30f7000 r-xp 00000000 fd:00 76575                      /usr/lib64/librt-2.17.so
+2b66b30f7000-2b66b32f6000 ---p 00007000 fd:00 76575                      /usr/lib64/librt-2.17.so
+2b66b32f6000-2b66b32f7000 r--p 00006000 fd:00 76575                      /usr/lib64/librt-2.17.so
+2b66b32f7000-2b66b32f8000 rw-p 00007000 fd:00 76575                      /usr/lib64/librt-2.17.so
+2b66b32f8000-2b66b32f9000 ---p 00000000 00:00 0 
+2b66b32f9000-2b66b34f9000 rw-p 00000000 00:00 0 
+2b66b34f9000-2b66b34fa000 ---p 00000000 00:00 0 
+2b66b34fa000-2b66b3f02000 rw-p 00000000 00:00 0 
+2b66b3f02000-2b66b4f0b000 rw-s 00000000 00:13 1402713                    /dev/shm/mpich_shar_tmpIkC7gk (deleted)
+2b66b4f0b000-2b66b500c000 rw-p 00000000 00:00 0 
+2b66b8000000-2b66b8021000 rw-p 00000000 00:00 0 
+2b66b8021000-2b66bc000000 ---p 00000000 00:00 0 
+7ffe34a96000-7ffe34ab9000 rw-p 00000000 00:00 0                          [stack]
+7ffe34bf7000-7ffe34bf9000 r-xp 00000000 00:00 0                          [vdso]
+ffffffffff600000-ffffffffff601000 r-xp 00000000 00:00 0                  [vsyscall]
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   PID 15494 RUNNING AT fang-s010
+=   EXIT CODE: 134
+=   CLEANING UP REMAINING PROCESSES
+=   YOU CAN IGNORE THE BELOW CLEANUP MESSAGES
+===================================================================================
+YOUR APPLICATION TERMINATED WITH THE EXIT STRING: Aborted (signal 6)
+This typically refers to a problem with your application.
+Please see the FAQ page for debugging suggestions

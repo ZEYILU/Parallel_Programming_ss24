@@ -1,0 +1,11 @@
+slurm中 的node如果是omp的parallel应该只有一个node
+slurm中不能有gcc！！！编译要写在shell里面
+
+sbatch Quicksort_job.slurm
+squeue -j 10012
+
+chmod +x build.sh
+
+chmod 755 student18
+
+mpicc -fopenmp -o gauss_jacobi jacobi.c

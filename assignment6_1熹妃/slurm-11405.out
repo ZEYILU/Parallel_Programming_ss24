@@ -1,0 +1,5 @@
+/appl/anaconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/11.2.0/../../../../x86_64-conda-linux-gnu/bin/ld: cannot open output file schur: Is a directory
+collect2: error: ld returned 1 exit status
+[proxy:0:0@fang-s010.fhws] HYDU_create_process (lib/utils/launch.c:73): [proxy:0:0@fang-s010.fhws] HYDU_create_process (lib/utils/launch.c:73): execvp error on file ./schur (Permission denied)
+execvp error on file ./schur (Permission denied)
+[proxy:0:0@fang-s010.fhws] HYDU_create_process (lib/utils/launch.c:73): execvp error on file ./schur (Permission denied)

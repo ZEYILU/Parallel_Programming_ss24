@@ -1,0 +1,10 @@
+Running with 3 processes and 3 threads per process
+Time taken: 9.316355 seconds
+Running with 5 processes and 3 threads per process
+Time taken: 15.691607 seconds
+Running with 3 processes and 5 threads per process
+Time taken: 9.342310 seconds
+Running with 7 processes and 2 threads per process
+Time taken: 22.105026 seconds
+Running with 2 processes and 7 threads per process
+Time taken: 6.223599 seconds

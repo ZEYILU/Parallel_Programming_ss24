@@ -1,0 +1,3 @@
+Time elapsed for blocks=2 and threads_per_block=1024: 1805.182007 ms
+Time elapsed for blocks=4 and threads_per_block=512: 1807.955933 ms
+Time elapsed for blocks=8 and threads_per_block=256: 1708.551147 ms

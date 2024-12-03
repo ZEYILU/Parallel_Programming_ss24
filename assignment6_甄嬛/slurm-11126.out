@@ -1,0 +1,14 @@
+Running with 3 processes and 3 threads per process
+srun: error: Unable to create step for job 11126: More processors requested than permitted
+Running with 5 processes and 3 threads per process
+srun: error: Unable to create step for job 11126: More processors requested than permitted
+grep: output_5_3.txt: No such file or directory
+Running with 3 processes and 5 threads per process
+srun: error: Unable to create step for job 11126: More processors requested than permitted
+grep: output_3_5.txt: No such file or directory
+Running with 7 processes and 2 threads per process
+srun: error: Unable to create step for job 11126: More processors requested than permitted
+grep: output_7_2.txt: No such file or directory
+Running with 2 processes and 7 threads per process
+srun: error: Unable to create step for job 11126: More processors requested than permitted
+grep: output_2_7.txt: No such file or directory

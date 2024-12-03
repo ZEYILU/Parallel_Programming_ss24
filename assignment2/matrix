@@ -1,0 +1,6 @@
+vi build_sh
+
+chmod a+x build_sh
+
+g++ -o bonus_question bonus_question.cpp mmio.c -I.
+g++ -std=c++11 -o bonus_question bonus_question.cpp mmio.c -I.

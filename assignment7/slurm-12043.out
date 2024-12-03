@@ -1,0 +1,6 @@
+Running with 2 Blocks and 1024 threads per Block
+Execution time: 19.903553 seconds
+Running with 4 Blocks and 512 threads per Block
+Execution time: 4.476625 seconds
+Running with 8 Blocks and 256 threads per Block
+Execution time: 4.294544 seconds

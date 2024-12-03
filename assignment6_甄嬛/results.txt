@@ -1,0 +1,10 @@
+Configuration: 3 processes, 3 threads
+Runtime for 3 processes and 3 threads:  seconds
+Configuration: 5 processes, 3 threads
+Runtime for 5 processes and 3 threads:  seconds
+Configuration: 3 processes, 5 threads
+Runtime for 3 processes and 5 threads:  seconds
+Configuration: 7 processes, 2 threads
+Runtime for 7 processes and 2 threads:  seconds
+Configuration: 2 processes, 7 threads
+Runtime for 2 processes and 7 threads:  seconds

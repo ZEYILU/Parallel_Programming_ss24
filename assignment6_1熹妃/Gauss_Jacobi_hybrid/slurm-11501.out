@@ -1,0 +1,10 @@
+Running with 3 processes and 3 threads per process
+Execution time: 17.856007 seconds
+Running with 5 processes and 3 threads per process
+Execution time: 17.720009 seconds
+Running with 3 processes and 5 threads per process
+Execution time: 18.325004 seconds
+Running with 7 processes and 2 threads per process
+Execution time: 29.908008 seconds
+Running with 2 processes and 7 threads per process
+Execution time: 16.818002 seconds

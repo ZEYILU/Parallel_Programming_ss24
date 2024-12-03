@@ -1,0 +1,52 @@
+Abort(879301135) on node 0 (rank 0 in comm 0): Fatal error in internal_Allgather: Other MPI error, error stack:
+internal_Allgather(133)......................: MPI_Allgather(sendbuf=0x1a0ccb0, sendcount=3, MPI_DOUBLE, recvbuf=0x1a0cc20, recvcount=3, MPI_DOUBLE, MPI_COMM_WORLD) failed
+MPID_Allgather(645)..........................: 
+MPIDI_Allgather_allcomm_composition_json(586): 
+MPIDI_Allgather_intra_composition_beta(1236).: 
+MPIDI_NM_mpi_allgather(83)...................: 
+MPIR_Allgather_impl(2176)....................: 
+MPIR_Allgather_allcomm_auto(2112)............: 
+MPIR_Allgather_intra_brucks(102).............: 
+(unknown)(): Other MPI error
+Abort(476647951) on node 1 (rank 1 in comm 0): Fatal error in internal_Allgather: Other MPI error, error stack:
+internal_Allgather(133)......................: MPI_Allgather(sendbuf=0xd9f358, sendcount=3, MPI_DOUBLE, recvbuf=0xda0240, recvcount=3, MPI_DOUBLE, MPI_COMM_WORLD) failed
+MPID_Allgather(645)..........................: 
+MPIDI_Allgather_allcomm_composition_json(586): 
+MPIDI_Allgather_intra_composition_beta(1236).: 
+MPIDI_NM_mpi_allgather(83)...................: 
+MPIR_Allgather_impl(2176)....................: 
+MPIR_Allgather_allcomm_auto(2112)............: 
+MPIR_Allgather_intra_brucks(102).............: 
+(unknown)(): Other MPI error
+Abort(879301135) on node 3 (rank 3 in comm 0): Fatal error in internal_Allgather: Other MPI error, error stack:
+internal_Allgather(133)......................: MPI_Allgather(sendbuf=0x1543388, sendcount=3, MPI_DOUBLE, recvbuf=0x1544240, recvcount=3, MPI_DOUBLE, MPI_COMM_WORLD) failed
+MPID_Allgather(645)..........................: 
+MPIDI_Allgather_allcomm_composition_json(586): 
+MPIDI_Allgather_intra_composition_beta(1236).: 
+MPIDI_NM_mpi_allgather(83)...................: 
+MPIR_Allgather_impl(2176)....................: 
+MPIR_Allgather_allcomm_auto(2112)............: 
+MPIR_Allgather_intra_brucks(78)..............: 
+(unknown)(): Other MPI error
+srun: Job 11046 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Step created for job 11046
+INTERNAL ERROR: invalid error code 30a20e (Ring ids do not match) in MPIR_Allgather_allcomm_auto:2112
+Abort(813240847) on node 5 (rank 5 in comm 0): Fatal error in internal_Allgather: Other MPI error, error stack:
+internal_Allgather(133)......................: MPI_Allgather(sendbuf=0x1127b58, sendcount=1, MPI_DOUBLE, recvbuf=0x1127aa0, recvcount=1, MPI_DOUBLE, MPI_COMM_WORLD) failed
+MPID_Allgather(645)..........................: 
+MPIDI_Allgather_allcomm_composition_json(586): 
+MPIDI_Allgather_intra_composition_beta(1236).: 
+MPIDI_NM_mpi_allgather(83)...................: 
+MPIR_Allgather_impl(2176)....................: 
+MPIR_Allgather_allcomm_auto(2112)............: 
+INTERNAL ERROR: invalid error code 30a20e (Ring ids do not match) in MPIR_Allgather_allcomm_auto:2112
+Abort(746131983) on node 7 (rank 7 in comm 0): Fatal error in internal_Allgather: Other MPI error, error stack:
+internal_Allgather(133)......................: MPI_Allgather(sendbuf=0x185db68, sendcount=1, MPI_DOUBLE, recvbuf=0x185daa0, recvcount=1, MPI_DOUBLE, MPI_COMM_WORLD) failed
+MPID_Allgather(645)..........................: 
+MPIDI_Allgather_allcomm_composition_json(586): 
+MPIDI_Allgather_intra_composition_beta(1236).: 
+MPIDI_NM_mpi_allgather(83)...................: 
+MPIR_Allgather_impl(2176)....................: 
+MPIR_Allgather_allcomm_auto(2112)............: 
+srun: Job 11046 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Step created for job 11046

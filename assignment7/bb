@@ -1,0 +1,118 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <cuda.h>
+#include <math.h>
+
+#define MAX_ITER 10000
+#define TOL 1e-5
+
+__global__ void gaussJacobiKernel(double* d_A, double* d_b, double* d_x, double* d_x_new, int N) {
+    int idx = blockIdx.x * blockDim.x + threadIdx.x;
+    if (idx < N) {
+        d_x_new[idx] = d_b[idx];
+        for (int j = 0; j < N; ++j) {
+            if (j != idx) {
+                d_x_new[idx] -= d_A[idx * N + j] * d_x[j];
+            }
+        }
+        d_x_new[idx] /= d_A[idx * N + idx];
+    }
+}
+
+
+void read_matrix(const char *filename, double **A, double **b, int *n) {
+    FILE *file = fopen(filename, "r");
+    if (!file) {
+        perror("Error opening file");
+        exit(EXIT_FAILURE);
+    }
+    fscanf(file, "%d", n);
+    *A = (double *)malloc((*n) * (*n) * sizeof(double));
+    *b = (double *)malloc((*n) * sizeof(double));
+    for (int i = 0; i < (*n) * (*n); ++i) {
+        fscanf(file, "%lf", &(*A)[i]);
+    }
+    for (int i = 0; i < *n; ++i) {
+        fscanf(file, "%lf", &(*b)[i]);
+    }
+    fclose(file);
+}
+
+void write_solution(const char *filename, double *x, int n) {
+    FILE *file = fopen(filename, "w");
+    if (!file) {
+        perror("Error opening file");
+        exit(EXIT_FAILURE);
+    }
+    for (int i = 0; i < n; ++i) {
+        fprintf(file, "%.10lf\n", x[i]);
+    }
+    fclose(file);
+}
+
+int main(int argc, char *argv[]) {
+    if (argc != 5) {
+        fprintf(stderr, "Usage: %s <input_matrix_file> <output_file> <blocks> <threads_per_block>\n", argv[0]);
+        return EXIT_FAILURE;
+    }
+
+    int n;
+    double *A, *b, *x, *x_new;
+    read_matrix(argv[1], &A, &b, &n);
+
+    x = (double *)malloc(n * sizeof(double));
+    x_new = (double *)malloc(n * sizeof(double));
+    for (int i = 0; i < n; ++i) x[i] = 0.0;
+
+    double *d_A, *d_b, *d_x, *d_x_new;
+    cudaMalloc(&d_A, n * n * sizeof(double));
+    cudaMalloc(&d_b, n * sizeof(double));
+    cudaMalloc(&d_x, n * sizeof(double));
+    cudaMalloc(&d_x_new, n * sizeof(double));
+
+    cudaMemcpy(d_A, A, n * n * sizeof(double), cudaMemcpyHostToDevice);
+    cudaMemcpy(d_b, b, n * sizeof(double), cudaMemcpyHostToDevice);
+    cudaMemcpy(d_x, x, n * sizeof(double), cudaMemcpyHostToDevice);
+
+    int blockSize = atoi(argv[4]);
+    int numBlocks = atoi(argv[3]);
+
+    int iter = 0;
+    double diff,max_diff;
+
+    do {
+        gaussJacobiKernel<<<numBlocks, blockSize>>>(d_x, d_x_new, d_A, d_b, n);
+        //cudaDeviceSynchronize();
+
+        cudaMemcpy(x_new, d_x_new, n * sizeof(double), cudaMemcpyDeviceToHost);
+
+        max_diff = 0.0;
+        for (int i = 0; i < n; ++i) {
+            diff = fabs(x_new[i] - x[i]);
+            if (diff > max_diff) {
+                max_diff = diff;
+            }
+            x[i] = x_new[i];
+        }
+
+        cudaMemcpy(d_x, d_x_new, n * sizeof(double), cudaMemcpyHostToDevice);
+
+        iter++;
+    }while (iter < MAX_ITER && max_diff > TOL);
+
+    cudaMemcpy(x, d_x, n * sizeof(double), cudaMemcpyDeviceToHost);
+
+    write_solution(argv[2], d_x, n);
+
+    cudaFree(d_A);
+    cudaFree(d_b);
+    cudaFree(d_x);
+    cudaFree(d_x_new);
+
+    free(A);
+    free(b);
+    free(x);
+    free(x_new);
+
+    return 0;
+}
